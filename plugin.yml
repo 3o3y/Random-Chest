@@ -1,0 +1,23 @@
+name: Random_Chests
+version: '1.0'
+main: ch.svr.random_chests.Random_Chests
+api-version: 1.19
+
+commands:
+  rcrandom:
+    description: /rcrandom 5 1 im Umkreis von 5 Blöcken 1 Truhe spawnen.
+    usage: /rcrandom x x
+    permission: randomchest.random
+    permission-message: Du hast leider keine Berechtiugung dafür.
+    cooldown: 10
+  rcsetchest:
+    description: Setze eine Truhe an einem bestimmten Ort.
+    usage: /rcsetchest <X> <Y> <Z>
+    permission: randomchest.xyz
+    permission-message: Du hast leider keine Berechtiugung dafür.
+    cooldown: 10
+  rcdeleteall:
+    description: Löscht alle zufällig erstellten Truhen.
+    usage: /rcdeleteall
+    permission: randomchest.del
+    permission-message: Du hast leider keine Berechtiugung dafür.
