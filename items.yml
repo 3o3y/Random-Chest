@@ -1,0 +1,15 @@
+weak-items:
+  - material: OAK_PLANKS
+    quantity: 64
+    display-name: "&6Oak Planks"
+    lore:
+      - "&7A basic building block"
+    enchantments:
+      - type: PROTECTION_ENVIRONMENTAL
+        level: 1
+  - material: BIRCH_PLANKS
+    quantity: 64
+    display-name: "&6Birch Planks"
+    lore:
+      - "&7A basic building block"
+    enchantments: []
